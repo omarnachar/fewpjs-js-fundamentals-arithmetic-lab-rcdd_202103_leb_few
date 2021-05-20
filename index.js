@@ -1,33 +1,9 @@
+let num1 = 2;
+let num2 = 31;
+const multiply = num1 * num2;
 
-// Write your code here
-function add(a,b){
-  return a + b;
-}
+const random = Math.floor(Math.random() * 1000) + 1;
 
-function subtract(a,b){
-  return a - b;
-}
+const mod = 16 % 6;
 
-function multiply(a,b){
-  return a * b;
-}
-
-function divide(a,b){
-  return a / b;
-}
-
-function inc(n){
-  return n += 1;
-}
-
-function dec(n){
-  return n -= 1;
-}
-
-function makeInt(n){
-  return parseInt(n, 10);
-}
-
-function preserveDecimal(n){
-  return parseFloat(n);
-}
+const max = Math.max(4, 13, 20, 18, 9)
